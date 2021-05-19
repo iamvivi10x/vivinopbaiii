@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+}
+.outer{
+	width:1440px;
+	height:1450px;
+	background:pink;
+	margin:0 auto;
+}
+.header{
+	width:1440px;
+	height:238px;
+	background:pink;
+	
+}
+.header h3{
+    text-align: center;
+    font-size:50px;
+}
+.logo{
+    width: 20%;
+    height: 100PX;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    background: #FFC0CB;
+    margin-top:0%;
+}
+.logo img{
+    height:100px;
+}
+.menu{
+    width: 80%;
+    height: 100px;
+    float: right;
+    background: pink
+}
+.menu ul{
+    align-items:center;
+    display: flex;
+    list-style: none;
+    background: pink;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: space-around;
+
+}
+.MENU UL LI{
+    DISPLAY: inline-block;
+    MARGIN: 20PX;
+}
+.menu ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:    ;
+    font-weight: bold;
+}
+.banner{
+	width: 100%;
+	height:18px;
+	background: grey;
+	margin-top: auto;
+	margin-right: auto;
+	border: 20% groove grey;
+    text-align: center;
+}
+.under{
+	width: 100%;
+	height: 400px;
+	background: grey;
+	text-align: center;
+}
+.under h3{
+    line-height:75px;
+    font-size:18px;
+}
+.content{
+	width: 100%;
+	height:1870px;
+	background: pink;
+}
+.content h4{
+    text-align:center;
+    line-height:50px;
+}
+.text1{
+	width: 1440px;
+	height: 230px;
+	text-align: center;
+}
+.left1{
+	width: 940px;
+	height: 380px;
+	background: #pink;
+	float:left;
+	margin-left: 65px;
+	margin-bottom: 20px;
+	margin-top: 100px;
+    border: 6px dashed grey;
+}
+.right1{
+	width:340px;
+	height: 380px;
+	background: #pink;
+	float:right;
+	margin-right: 65px;
+	margin-bottom: 20px;
+	margin-top: 100px;
+    border: 6px dashed grey;
+}
+.left2{
+	width: 640px;
+	height: 640px;
+	background: pink;
+	float:left;
+	margin-left: 65px;
+	margin-bottom: 20px;
+	margin-top: 100px;
+    border: 6px dashed grey;
+}
+.right2{
+	width:640px;
+	height: 640px;
+	background: pink;
+	float:right;
+	margin-right: 65px;
+	margin-bottom: 20px;
+	margin-top: 100px;
+    border: 6px dashed grey;
+}
+.left3{
+	width: 940px;
+	height: 380px;
+	background: #pink;
+	float:left;
+	margin-left: 65px;
+	margin-bottom: 20px;
+	margin-top: 100px;
+    border: 6px dashed grey;
+}
+.right3{
+	width:340px;
+	height: 380px;
+	background: #pink;
+	float:right;
+	margin-right: 60px;
+	margin-bottom: 20px;
+	margin-top: 100px;
+    border: 6px dashed grey;
+}
+.footer{
+    width:1440px;
+	height: 150px;
+	background: grey;
+    margin-top: %;
+}
+.footer h2{
+    text-align:center;
+    color-background: black;
+    line-height:650%;
+}
